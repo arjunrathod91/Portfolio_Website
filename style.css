@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+
+body {
+    background-color: rgb(3, 16, 56);
+    color: white;
+    font-family: Bebas Neue;
+}
+main{
+    height: 100vh;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(52, 59, 188);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+
+}
+nav ul li a{
+    color: aliceblue;
+}
+
+nav ul li :hover {
+    color: rgb(239, 134, 239);
+    font-size: 1.5rem;
+
+}
+
+
+.logo {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 30px;
+}
+
+.first-sec{
+    display: flex;
+    
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftsection{
+    margin-top: 140px;
+}
+
+.bottom{
+    margin-left: 150px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+.skill-head h1{
+    text-align: center;
+    margin: 20px;
+}
+.skill {
+    background-color: rgb(45, 103, 154);
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill ul li img{
+    height: 100px;
+    width: 100px;
+
+}
+
+.skill-head h1{
+    font-size:2rem;
+}
+.skill ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.skill ul li label{
+    font-size: 1.2rem;
+    margin: 25px;
+}
+
+.skill-ele{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.rightsection img {
+    height: 350px;
+    width: 400px;
+    margin: 40px 10px;
+
+}
+.color {
+    color: rgb(94, 114, 216);
+}
+
+.btn{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(184, 182, 182);
+    background-color: none;
+}
+
+.contactme{
+    padding: 30px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con-head h1{
+    font-size: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.form input{
+    height: 30px;
+    width: 340px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.form textarea{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+.foot-top{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.para{
+    text-align: center;
+    margin-top: 30px;
+}
+.category1,.category2{
+    display: flex;
+    flex-direction: column;
+}
+
+.category1 a,.category2 a{
+    color: rgb(188, 181, 172);
+    font-size: 1.1rem;
+}
+.category1 p,.category2 p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
