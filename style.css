@@ -155,12 +155,12 @@ ul{
 .con-head h1{
     font-size: 2rem;
 }
-.form{
+form{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
 }
-.form input{
+form input{
     height: 30px;
     width: 340px;
     background-color: aliceblue;
@@ -168,7 +168,7 @@ ul{
     padding: 5px;
     margin: 5px;
 }
-.form textarea{
+form textarea{
     margin: 5px;
     border-radius: 5px;
 }
