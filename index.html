@@ -94,10 +94,10 @@
             <div class="con-head">
                 <h1>Contact Us</h1>
             </div>
-            <form>
-                <input class="phone" type="text" placeholder="Enter Your Email">
-                <input class="name" type="text" placeholder="Enter Your Name">
-                <textarea class="email" type="text" placeholder="" rows="6" cols="40"></textarea>
+            <form action="https://formsubmit.co/ar885209@gmail.com" method="POST" >
+                <input class="phone" type="text" name="email" placeholder="Enter Your Email">
+                <input class="name" type="text"  name="name" placeholder="Enter Your Name">
+                <textarea class="email" type="text" name="message" placeholder="" rows="6" cols="40"></textarea>
             </form>
 
         </section>
@@ -126,23 +126,6 @@
         </footer>
         </div>
     </main>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "arjunrathod91",
-                Password: "ar12ju34",
-                To: 'ar885209@gmail.com',
-                From: "you@isp.com",
-                Subject: "This is the subject",
-                Body: "And this is the body"
-            }).then(
-                message => alert(message)
-            );
-        }
-    </script>
 
 
 </body>
